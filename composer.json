@@ -1,0 +1,20 @@
+{
+  "name": "yutao/delay-queue",
+  "description": "Delay Queue for PHP",
+  "authors": [
+    {
+      "name": "yutao",
+      "email": "yutao.mail@qq.com"
+    }
+  ],
+  "require": {
+    "ext-redis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DelayQueue\\": "src"
+    },
+    "files": [
+    ]
+  }
+}
